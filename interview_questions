@@ -1,0 +1,239 @@
+#### interview questions for devops/devsecops ####
+#### This consists of compiled list of questions being interviewed for DevOps/DevSecOps with 
+mnc's,startups, small companies like tech mahindra, autodesk, eatigo, juvo, jump trading, singtel ,
+infosys, zalora, lazada, st electronics, chainstack, Hp, palo IT and various others. ####
+
+### TOPICS #########
+1) Jenkins 2.0
+2) application server, webserver
+3) docker
+4) git
+5) aws, private cloud
+6) monitorung tools , scripts
+7) maven, build tools
+8) linux basics & advanced
+9) networking
+10) shell/python scripting
+11) DB mongo/mysql
+12) security
+13) automation
+14) os concepts
+#####################
+
+
+
+1)how to see kernel of os and architecture ?
+2) which one is better redhat ubuntu aix etc. why ?
+3) trendmicro how it works ? trend micro dashboard name ?
+4) system manager how it works ?
+is it safe to use sytem manager to upgrade / update os ? intevriewer didnt feel so?
+5) ci/cd tool, phases, example of static & dynamic anaylsys pluggins ?
+6) which linux is the best and shy ? need to know booting wise ?
+7) python ,unix scritping , how good ?
+8) kernel cmd line parameters ?
+9) special file system ?
+10) data types in python ?
+11) list and dictionary ?
+12) file types in linux ?
+13) iam ?
+14) flow from enduser to webpage hit explain ?
+15) vpc peering ?
+16) ec2 roles how why ?
+17) sqs, sns ?
+18) boot sequence of linux os ?
+19) how ls command works, tell the story behind ?
+20) ls -ltrh full cmd explain ?
+21) find a file in millions of file in a directory how ?
+22)rolling deployment in ansible how ?
+23)terraform usage , how to check current state ? how to do dry run ?
+24)tcp/ip & udp model ?
+25)rack space ? raid configure ?
+26)vmware ? monitoring tools ?
+27)zombie process ? how to find & kill it ?
+28) kernel level questions ?
+29) Cassandra / Kafka/Hadoop/Spark experience ?
+30)docker, docker swarm
+31) git pipeline flow
+32) maven creation of pom file
+33) security phases sast & dast ?
+34) docker images base image where its stored ?
+35) creation of dockerfile and compose file ?
+36) gateway, vpc peering?
+37) ways to connect onpremise to aws infrastructure ?
+38) rest api ? api development ? java ?
+39) cloud networking ?
+40) cloud infra setup ?
+41) sqs ?
+42) terraform ?
+43) how to manage iam ?
+44) full architecture of project and flow ?
+45) how to manager docker containers ?
+46) any expin development of full application flow using eclipse or some other tool ?
+47) why its named route 53 ?
+48) ansible basic concept ?
+49) client server model explain
+50) http vs https why ?
+51) diff between tcp/ip & udp model ?
+52) why not using ECS of aws ?
+53) how to find full path  process running from pid ?
+54) how do u use certificates , what each file mean ?
+55) string contained multipe character repeasting, convert it into unique characters only ?
+56) kubernetes/docker swarm architecture ?
+57) owasp 10 vulnerabilities ?
+58) owasp stands for ?
+59) cross forgery and cross site vulnerbailty ?
+60) assignment : increase filesystem open files for system, application , service level 
+docker configuration for nginx ( fix issue )
+write script to print all status code and hits in json and log file
+61)architecture of your whole project
+62) diff between jenkins and maven?
+63) how to different between dev, sit, uat, prod in moven ?
+64)any other tool used apart from jenkins for ci/cd ?
+65)cloud front ?
+66)sast / dast scan ?
+67) types of LB and difference between them.
+68) why didnt use awscodedeploy ?
+69) api development ?
+70) api flow from server to client ?
+71) which is used for backend , front end , how application workflows ?
+72) why not use onpremise for mysql/mongodb ?
+73) jenkins pipeline which one you used ?
+74) phases in pipeline existing project ?
+75) allow disallow traffic apart from nacl, sg how ?
+76) what is maven where it is used ?
+77) two basic diff between nacl and sg grp ?
+78)difference between aes encryption and hasing
+79) man in middle attack
+80) simple architecture of application draw
+81) waf, what it does.
+82) sast and dast scan
+83) kms, alternative of kms if onpremise
+84) cisf means ?
+85) sts concept ?
+86) how application works when identity needs to be picked from pool like cognito, when we implemented hasing algo
+87) diff between security at transit & rest
+88) why dast cannot cover sast ?
+89) how to give knowledge to developers about security ?
+90) how can developers be aware and convinced to secure code or follow best practices
+91) diff between rsa and aes algo ?
+92) what is the algo used in aes encryption ?
+93) explain full devops process and cover everything in yout architecture, find out any componenet if missing ?
+94) which monitoring you use and how ?
+95) how backend data is access from front end using secuerity , during application flow?
+96) use of cloudfront , waf, any other service to protect from ddos ?
+97) how to secure man in middle attach ?
+98) any developmental knowledge ?
+99) Demerit of autoscaling?
+100) questions on dns
+101) route 53 { types of entries in it}
+102) multicast and broad cast difference
+103) tcp/udp difference with eg.
+104) tcp transport layer explain.
+105) dns is tcp/udp based ?
+106) how tcp/ip model works for handshake process
+107) check load of machine
+108) application taking high load, what to do, root cause analysis?
+109) top cmd, what all optiions it displays?
+110) memory caching, paging ?
+111) Ip address in which format, no. of bits ?
+112) soft link & hard link difference ?
+113) where do we use soft link and where do we use hard link ?
+114) cmd to clear cache memory
+115) find memory consumed by ram, disk, cache ? which cmds to see it ?
+116) ping cmd workflow ?
+117) how to decide and select family of ec2 instance ?
+118) if we have 16 processor machine, how much load it can handle ?
+119) garbage collection ?
+120) when does garbage collection occur ?
+121) db scaling how to implement ?
+122) plan arch of prod server with subnets , explain ?
+123) serverless db how in aws?
+124) terraform default file ? state stored where ? 
+125) diff between ansible & terraform ?
+126)write a dockerfile to pull ubuntu from dockerhub, apt upgrade, install nginx, create index.html, map ports, expose to world
+127) how to deploy or run something in ansible when all ips are private ?
+128) vpc peering how ?
+129) dhcp, route 53 ?
+130) redshift , how datastructure looks like ?
+131) terraform & ansible difference, where terraform stores the state ?
+132) terraform files where to store ?
+133) dhcp in aws what it does ?
+134) what tehcnologies to use for streaming data & performance improvement ? (aws)
+135) cloudfront where do we use why ? explain usecases ?
+136) types of cache and difference between them ?
+137) ecs/eks
+138) redshift ?
+139) ci/cd pipeline workflow explain ?
+140) sample terraform script write ?
+141) python with ec2 connect sample code ?
+142) modules used in python for your projects or past experience ?
+143) aws elb & alb difference ? blue/green deployment ?
+144) ansible used in which projects? write some sample playbook, draw architecture of ansible ?
+145) elk ? what it does, componenets ? pluggings used in elk for your project ?
+146) how to monitor logs of streaming data in TB's, if it gets deleted after few mins of creation ?
+147) how to optimize cost in aws, where did u cut the costs ?
+148) services used in aws name all ?
+149) did u use infrastructure provisioning in aws production ? how ?
+150) draw ci/cd workflow ? 
+151) whole arch of your project ?
+152) what happends in case of merge, how will ci handle it ?
+153) credential report ?
+154) components of aws route 53 explain ?
+155) implement cachec , types of cache in aws ?
+156) cloudfront where, how used. concept of signed url in cloudfront ?
+157) aws inspector ?
+158) managed db aws explain why, how etc ?
+159) bigdata flow aws arch ?
+160) kafka ?
+161) s3 encryption types ?
+162) sqs, ses, sns ?
+163) IAM ?
+164) kms ?
+165) security manager ?
+166) rds, roles 
+167) configure ses how ?
+168) normal architecture of fe && be draw with aws components
+169) new service similar to elk, splunk in aws ?
+170) cloudwatch ?
+171) scenario where lambda is used ?
+172) nat gateway ?
+173) vpc peering ?
+174) lifecycle of s3 ?
+175) ebs/ephemeral volumes ?
+176) cognito , active directory ?
+177) waf, where to place it in aws components arch diagram ?
+178) when to have private waf & when to have public waf ?
+179) how to implement devsec ops in ci/cd pipeline ?
+180) owasp 10 rules, what are they ?
+181) tools used for sast & dast scan ?
+182) encrypt data methods how ?
+183) hashing & encrypting difference ?
+184) sql injection what it does ?
+185) cross side scripting means ?
+186) ssl/tls difference ?
+187) cloud security implementation & tools used ?
+188) terraform state file name ?
+189) default terraform file ?
+190) redhat package for file , db ?
+191) git pull/fetch difference ?
+192) load, how to measure it ?
+193) how much load is high ?
+194) udp/tcp difference ?
+195) w cmd displays 3-4 loads what are they ?
+196) horizontal/vertical scaliing ?
+197) how to scale without autoscaling ?
+198) improve performance of application without autoscaling ?
+199) ports for ntp, ssh, http, ssl, smtp ?
+200) mutable, immutable infrastructure,
+201) orchestarion/config mgt tool tools and why ?
+202) s3, git
+203) difference between vpc gateway & endpoint
+204) pre signed url concept explain ?
+205) cloud front origin identity user means 
+206) setup jenkins server ci/cd whole workflow steps ?
+207) aws code deploy how it works , gitlad ci/cd workflow ?
+208) #### learn architect aws ##### ques to draw the architecture here based on scenario
+https://cloudcraft.co/
+
+
+
